@@ -1,0 +1,40 @@
+.external{
+    border: 2px;
+    font-size: 50px;
+    color: crimson;
+    background-color: aqua;
+}
+#Main{
+    height: 200px;
+    width: 500px;
+   background-color: fuchsia;
+}
+span{
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]{
+    color: blue;
+}
+/*a[href]{
+    background-color: aqua;
+}*/
+a:link{
+    color: green;
+}
+a:visited{
+    color: maroon;
+}
+a:hover{
+    font-size: 30px;
+    color: red;
+}
+a:active{
+    color: aqua;
+}

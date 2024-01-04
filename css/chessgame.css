@@ -1,0 +1,15 @@
+p{
+    text-shadow: 6px 3px 5px green;
+    font-size: 50px;
+}
+.a{
+    height: 650px;
+    width: 700px;
+    border: solid black;
+}
+h2{
+    color: green;
+}
+td.g{
+    background-color: green;
+}

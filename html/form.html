@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <center><h1>FORM ELEMENTS IN HTML</h1></center>
+        <form>
+            <label>Enter Name</label>
+            <input type="text" value="name" autocomplete="off" readonly>
+            <!--readonly and disabled are same-->
+            <br><br>
+            <label>Enter Mobile Number</label>
+            <!--<input type="number">-->
+            <input type="tel" maxlength="10" placeholder="Enter mobile number">
+            <br><br>
+            <label>Enter Email</label>
+            <input type="email" autofocus>
+            <br><br>
+            <label>Enter Password</label>
+            <input type="password" required>
+            <br><br>
+            <label>Select Gender: </label>
+            Male<input type="radio" name="gender">
+            Female<input type="radio" name="gender">
+            <br><br>
+            <label>Date Of Birth</label>
+            <input type="date">
+            <br><br>
+            <label>Select College: </label>
+            AEC<input type="checkbox">
+            ACET<input type="checkbox">
+            ACOE<input type="checkbox">
+            <br><br>
+            <label>Select branch</label>
+            <select> 
+                <option>CCN</option>
+                <option>CME</option>
+                <option>ECE</option>
+            </select>
+            <br><br>
+            <label>Upload files</label>
+            <input type="file">
+            <br><br>
+            <textarea></textarea>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
